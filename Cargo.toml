@@ -10,4 +10,8 @@ license = "MIT"
 crate-type = ["cdylib"]
 
 [dependencies]
+async-std = "1.12.0"
+reqwest = { version = "0.12.4", features = ["json"] }
 wasm-bindgen = "0.2.92"
+wasm-bindgen-futures = "0.4.42"
+web-sys = "0.3.69"
